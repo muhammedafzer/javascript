@@ -1,5 +1,5 @@
-let age = window.prompt("How are You ?");
+let age = window.prompt("How old are You ?");
 age = Number(age);
 
 age+=1;
- console.log(age);20
+ console.log(age);
