@@ -1,8 +1,5 @@
-let username;
+let age = window.prompt("How are You ?");
+age = Number(age);
 
-document.getElementById("mySubmit").onclick = function()
-  {
-
-    username = document.getElementById("myText").value;
-    console.log(username);
-    document.getElementById("myH1").textContent = `Hello    ${username}`;}
+age+=1;
+ console.log(age);20
