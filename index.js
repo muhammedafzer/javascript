@@ -1,5 +1,11 @@
-let age = window.prompt("How old are You ?");
-age = Number(age);
+let pI = 3.14159;
+let radius;
+let circumference;
 
-age+=1;
- console.log(age);
+
+document.getElementById("mySubmit").onclick = function() {
+    radius = document.getElementById("myText").value;
+    radius = Number(radius);
+    circumference = 2 * pI * radius;
+    document.getElementById("myH3").textContent = circumference;
+}
